@@ -24,9 +24,12 @@ body {
 .container {
   margin: 0 auto;
   max-width: 320px;
-  width: auto;
   height: auto;
+  width: 100%;
   padding: 0 15px;
+}
+body {
+  overflow-x: hidden;
 }
 
 .top-line {
@@ -1130,7 +1133,8 @@ li {
   width: 288px;
   min-height: 623px;
   padding: 24px 24px 24px 12px;
-  margin: 0 auto;
+  margin-left: 0;
+  margin-bottom: auto;
 }
 .modal-header {
   border: none;
@@ -1425,6 +1429,7 @@ li {
   width: 320px;
   height: 640px;
   background-color: #fff;
+  margin-bottom: auto;
 }
 .menu-close-button {
   width: 24px;
@@ -1526,7 +1531,7 @@ li {
   gap: 40px;
   margin-left: -20px;
 }
-.open {
+.is-open {
   visibility: visible;
 }
 @media (min-width: 768px) {

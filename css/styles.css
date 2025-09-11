@@ -40,6 +40,7 @@ img {
   height: 56px;
   border-bottom: 2px solid #e7e9fc;
   margin-bottom: -20px;
+  width: 100%;
 }
 
 .top-header {
@@ -302,6 +303,7 @@ li {
   height: 432px;
   margin-bottom: -90px;
   margin-top: 30px;
+  width: 100%;
 }
 
 .hero-image {
@@ -565,12 +567,14 @@ li {
   height: 888px;
   margin-top: 90px;
   display: flex;
+  width: 100%;
 }
 .light-bg {
   background-color: #f4f4fd;
   height: 2232px;
   text-align: center;
   margin-bottom: 0;
+  width: 100%;
 }
 
 .team-card {
@@ -731,6 +735,7 @@ li {
   display: flex;
   margin-top: 0;
   height: 100%;
+  width: 100%;
   flex-wrap: wrap;
 }
 
@@ -881,7 +886,7 @@ li {
 }
 
 .dark-bg {
-  width: 100%;
+  width: auto;
   height: 664px;
   background-color: #2e2f42;
   margin-top: 0px;
